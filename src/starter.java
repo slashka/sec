@@ -45,8 +45,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  *  
  *  - openhome (? info): opens github link with this application
  *  
- *  - iddqd: opens slashka.ru TODO: убрать потом после проверок =)
- * 
  * \\FIGHT
  *
  * @author SlaSh
@@ -54,9 +52,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  */
 public class starter {
 	public static void main(String[] args) {
-		System.out.print(args.length);
-		testGoogleSearch();
-		System.exit(0);
+		//System.out.print(args.length);
+		//testGoogleSearch();
+		//System.exit(0);
 		ArrayList <String> myUrls = new ArrayList <String>();
 		
 		try {
